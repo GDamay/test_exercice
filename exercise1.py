@@ -13,4 +13,4 @@ def fibonacci(n: int) -> int:
 	"""
 
 	# TODO : Write here your solution to the first exercise
-	pass
+	raise NotImplementedError("Exercise 1 has not been solved yet")
