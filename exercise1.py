@@ -12,4 +12,7 @@ def fibonacci(n: int) -> int:
         the n th number of the fibonacci sequence
     """
 
-    return 10
+    if(n<=2):
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
